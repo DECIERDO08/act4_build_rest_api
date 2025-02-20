@@ -2,6 +2,8 @@ import express from "express"
 import * as dotenv from "dotenv"
 import cors from "cors"
 import helmet from "helmet"
+import { userRouter } from "./users/users.route"
+import { productRouter } from "./products/product.routes"
 
 dotenv.config()
 
